@@ -1,0 +1,17 @@
+button{
+    width: 100px;
+    height: 50px;
+}
+.something{
+    display: inline-block;
+    margin-left: 300px;
+}
+#ss{
+    display: none;
+}
+#fin{
+    display:none;
+}
+.danger{
+    color: brown;
+}

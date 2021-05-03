@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 970px;
+    background-color: #245076;
+}
+
+#plogo {
+    width: 300px;
+}
+
+.search {
+    background-color: #444444;
+    display: flex;
+    height: auto;
+}
+
+.textsize {
+    height: auto;
+    font-size: small;
+}
+
+.textsize p {
+    color: aliceblue;
+    transform: translateX(50px);
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    color: rgb(179, 168, 28);
+    margin: 0 5px;
+}
+
+.button {
+    border: 2px solid gray;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-size: x-small;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #0e0d0d;
+    transform: translateX(4px);
+}
+
+.go {
+    transform: translateY(3px);
+}
+
+.search {
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px #0e0d0d;
+    transform: translateY(3px);
+}
+
+.search2 {
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    font-size: x-small;
+    box-shadow: 2px 2px 2px #0e0d0d;
+}
+
+.navnavnav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 800px;
+    height: 50px;
+    background-color: #457dad;
+    box-shadow: 2px 2px 5px #0e0d0d;
+    border-radius: 9px;
+}
+
+.ulist {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+
+.linkbar {
+    color: rgb(218, 214, 214);
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.listbody {
+    display: flex;
+    transform: translateX(30px);
+    padding: 15px;
+}
+
+.centering {
+    display: block;
+    margin-left: -0.5em;
+}
+
+.leftlinks {
+    color: rgb(218, 214, 214);
+}
+
+.leftlist li {
+    color: #ffd746;
+}
+
+.innerbody {
+    width: 800px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+.leftlist {
+    text-align: center;
+    list-style-type: disc;
+    line-height: 1.8;
+}
+
+.first-appear {
+    width: 600px;
+    color: rgb(218, 214, 214);
+    text-align: center;
+}
+
+.yellowParag {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.yellow {
+    color: #d3b739;
+    font-size: large;
+    font-style: italic;
+}
+
+.zen {
+    color: rgb(218, 214, 214);
+    padding: 7px;
+}
+
+.innerbodytwo {
+    background-color: white;
+    border-top: 3px solid #1c3e5c;
+    width: 970px;
+    display: flex;
+    justify-content: center;
+}
+
+.bodycont {
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.border {
+    width: 360px;
+    border-top: 5px solid #457dad;
+    padding-bottom: 10px;
+}
+
+.getting-st {
+    text-align: center;
+    font-size: large;
+}
+
+.getting-st ul {
+    list-style: inside;
+    list-style-type: square;
+}
+
+.bottomli li {
+    width: 21em;
+    padding-left: 1em;
+    text-align: center;
+    list-style-type: square;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+.body-list {
+    color: #7bacda;
+    text-decoration: none;
+    text-align: center;
+}
+
+.apps {
+    text-align: center;
+    font-size: large;
+}
+
+.apps ul {
+    list-style: inside;
+    list-style-type: square;
+}
+
+.pypi {
+    text-decoration: none;
+    color: #7bacda;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( #245076, #3272a9);
+}
+
+.footercont {
+    width: 700px;
+    padding-top: 35px;
+}
+
+.footerlist {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkfooter {
+    font-size: large;
+    text-decoration: none;
+    color: #7bacda;
+}
+
+.end {
+    color: #7bacda;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}

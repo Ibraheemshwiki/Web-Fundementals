@@ -1,0 +1,19 @@
+.nav {
+    background-color: aqua;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    flex: 1;
+}
+
+h1 {
+    flex: 1;
+}
+
+ul {
+    flex: 4;
+}

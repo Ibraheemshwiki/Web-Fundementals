@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    border: 1px solid gray;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    font-size: small;
+    line-height: 110%;
+}
+
+.noBorder {
+    border: none;
+}
+
+.edge-numbers {
+    border: none;
+    color: rgb(238, 31, 31);
+}
+
+.main-container {
+    background-color: #eeeeee;
+    width: 1140px;
+}
+
+.sec-container {
+    align-items: center;
+}
+
+.bottom-table {
+    margin: 20px 0 0 45px;
+}
+
+.bottom-table td {
+    width: 55px;
+    height: 55px;
+}
+
+.small {
+    font-size: x-small;
+}
+
+.name {
+    color: #1913a2;
+    font-size: large;
+    margin-bottom: -12px;
+    margin-top: 3px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.stars {
+    text-align: end;
+    border: none;
+    color: rgb(238, 31, 31);
+}

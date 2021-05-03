@@ -1,0 +1,83 @@
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ mkdir test
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ touch index.html
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ touch style.css
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ cp index.html index_2.html
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ mkdir destination
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ mv index
+mv: missing destination file operand after 'index'
+Try 'mv --help' for more information.
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ mv index_2.html destination
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ mv style.css test
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ cd test
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop/test
+$ rm style.css
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop/test
+$ mv index.html test
+mv: cannot stat 'index.html': No such file or directory
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop/test
+$ mv Index.html test
+mv: cannot stat 'Index.html': No such file or directory
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop/test
+$ cd ..
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ mv index.html test
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ cd test
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop/test
+$ ls
+index.html
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop/test
+$ cd ..
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ cd destination
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop/destination
+$ ls
+index_2.html
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop/destination
+$ cd..
+bash: cd..: command not found
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop/destination
+$ cd ..
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ rm -rf destinaion
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ rm destination
+rm: cannot remove 'destination': Is a directory
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$ rm -rf destination
+
+FullMetalHuge@DESKTOP-UDQ3NDK MINGW64 ~/Desktop
+$

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <button class="hide">Hide</button>
+        <button class="show">Show</button>
+        <div class="something" id="1st">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="second">
+        <button class="toggle">toggle</button>
+        <div class="something" id="2nd">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="third">
+        <button class="slideDown">slideDown</button>
+        <div class="something" id="ss">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="fourth">
+        <button class="slideUp">slideUp</button>
+        <div class="something" id="up">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="fifth">
+        <button class="slideToggle">slideToggle</button>
+        <div class="something" id="tog">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="sixth">
+        <button class="fadeIn">fadeIn</button>
+        <div class="something" id="fin">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="seventh">
+        <button class="fadeOut">fadeOut</button>
+        <div class="something" id="fout">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="eighth">
+        <button class="addClass">addClass</button>
+        <div class="something" id="addc">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="ninth">
+        <button class="before">before</button>
+        <div class="something" id="befo">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="tenth">
+        <button class="after">after</button>
+        <div class="something" id="aft">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="eleventh">
+        <button class="append">append</button>
+        <div class="something" id="appe">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="twelvth">
+        <button class="html">add html</button>
+        <div class="something" id="htm">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="therteenth">
+        <button class="attr">change attr</button>
+        <div class="something" id="att" style="color: aqua">
+          <h1>This is a head</h1>
+          <p>this is a pargraph.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="fourteenth">
+        <button class="val3">change value</button>
+        <div class="something" id="val">
+          <input type="text" value="some text" />
+          <h1 class = "val"></h1>
+          <p class="val"></p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+            $(".hide").click(function(){
+                $("#1st").hide(1000);
+            })
+            $(".show").click(function(){
+                $("#1st").show(1000);
+            })
+            $(".toggle").click(function(){
+                $("#2nd").toggle(1000);
+            })
+            $(".slideDown").click(function(){
+                $("#ss").slideDown(1000);
+            })
+            $(".slideUp").click(function(){
+                $("#up").slideUp(1000);
+            })
+            $(".slideToggle").click(function(){
+                $("#tog").slideToggle(1000);
+            })
+            $(".fadeIn").click(function(){
+                $("#fin").fadeIn(1000);
+            })
+            $(".fadeOut").click(function(){
+                $("#fout").fadeOut(1000);
+            })
+            $(".addClass").click(function(){
+                $("#addc").addClass("danger");
+            })
+            $(".before").click(function(){
+                $("#befo").before("HELLO");
+            })
+            $(".after").click(function(){
+                $("#aft").after("HELLO");
+            })
+            $(".append").click(function(){
+                $("#appe").append("<b>HELLO</b>");
+            })
+            $(".html").click(function(){
+                $("#htm").html("<h1>HELLO</h1>");
+            })
+            $(".attr").click(function(){
+                $("#att").attr("style", "color:red");
+            })
+            $( "input" )
+      .keyup(function() {
+        var value = $( this ).val();
+        $( ".val" ).text( value );
+      })
+      .keyup();
+    </script>
+  </body>
+</html>
